@@ -46,7 +46,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
 
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. 
 
 #### 2. Attempts to reduce overfitting in the model
 
@@ -90,3 +90,5 @@ model.add(Dense(1))
 ```
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
+
+* example of (1)left/right camera, where I set steering at steering_original+0.2, and (2) flipped image, where I set steering at steering_original*(-1)
