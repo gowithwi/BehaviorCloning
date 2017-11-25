@@ -92,3 +92,6 @@ model.add(Dense(1))
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
 * example of (1)left/right camera, where I set steering at steering_original+0.2, and (2) flipped image, where I set steering at steering_original*(-1)
+```sh
+https://user-images.githubusercontent.com/29034510/33233671-725ab224-d1ce-11e7-9f8e-6a12b929a013.png
+```
